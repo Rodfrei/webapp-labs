@@ -90,7 +90,7 @@ jobs:
         with:
           resource-group: RG-APPS-CRESCER
           dns-name-label: lab-crescer-rodolfo-freitas
-          image: usuario/javacrescer:latest
+          image: rodolfocrescer/javacrescer:latest
           cpu: 1
           memory: 1
           registry-login-server: docker.io
